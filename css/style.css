@@ -20,10 +20,16 @@ a{
 
 /* MEDIA QUERIES*/
 /* MOBILE*/
-@media (min-width:300px) and (max-width:576px) {
-    
-
-nav{
+.material-symbols-outlined{
+    background-color:rgb(199, 95, 36);
+}
+#mobile{
+    background-color:rgb(199, 95, 36);
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    display: none;
+}
+#web{
     background-color:rgb(199, 95, 36);
     display:flex;
     justify-content: center;
@@ -43,6 +49,9 @@ nav{
 }
 
 .nav-link{
+padding: 3px;
+margin-left: 4px;
+margin-right: 4px;
 font-size: 30px;
 color: rgb(255, 235, 205);
 font-family: 'Roboto', sans-serif;
@@ -140,7 +149,7 @@ p{
     padding: 10px;
     display: grid;
     grid-template-columns: 400px 400px 400px;
-    grid-template-areas: area1 area2 area 3;
+    grid-template-areas: area1 area2 area3;
     justify-content: center;
     align-items: center;
     gap:5px;
@@ -238,4 +247,26 @@ footer{
     font-family: 'Roboto', sans-serif;
 }
 
+@media (min-width:200px) and (max-width:700px) {
+    #web{
+        display:none;
+    }
+    #mobile{
+        display: block;
+    }
+
+    .grilla{
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-areas: area1 ;
+    }
+   
+}
+
+@media (min-width:700px) and  (max-width:1200px) {
+    .grilla{
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-areas: area1 area2;
+    }
 }
