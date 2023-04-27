@@ -1,0 +1,22 @@
+
+// grilla productos 
+.grilla {
+    background-color: rgb(191, 138, 81);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-areas: area1 area2 area3;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+// MIXIN
+
+@mixin alineacion {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+}

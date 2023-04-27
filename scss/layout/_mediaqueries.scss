@@ -1,0 +1,24 @@
+@media (min-width:300px) and (max-width:480px) {
+    #web {
+        display: none;
+    }
+
+    #mobile {
+        display: block;
+    }
+
+    .grilla {
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-areas: area1;
+    }
+
+}
+
+@media (min-width:481px) and (max-width:1200px) {
+    .grilla {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-areas: area1 area2;
+    }
+}

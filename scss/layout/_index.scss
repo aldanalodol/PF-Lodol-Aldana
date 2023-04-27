@@ -1,0 +1,36 @@
+main {
+    background-color: rgb(251, 223, 182);
+}
+
+.cards {
+    background-color: rgb(191, 138, 81);
+    text-align: center;
+    margin-top: 1.5%;
+    border: 10px rgb(161, 91, 42) solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    transition: 2s;
+
+    img {
+        width: 50%;
+    }
+
+    .card_body {
+        background-color: rgb(251, 223, 182);
+
+    }
+    
+}
+
+p {
+        color: rgb(60, 59, 59);
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+        justify-content: center;
+        margin: 10px;
+
+    }

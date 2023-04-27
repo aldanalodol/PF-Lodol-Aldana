@@ -1,0 +1,40 @@
+.calzados {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 235, 205);
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+        justify-content: center;
+        border: rgb(161, 91, 42) solid;
+    }
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+
+
+}
+
+.principal {
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: rgb(135, 99, 54);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+
+.productos {
+    width: 65%;
+    height: 40%;
+}

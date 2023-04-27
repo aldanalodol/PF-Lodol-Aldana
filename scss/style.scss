@@ -1,0 +1,37 @@
+// BASE
+@import 'base/reset';
+@import 'base/utilidades';
+@import 'base/vars';
+
+//COMPONENTS
+@import 'components/navbar';
+@import 'components/footer';
+
+//LAYOUT
+@import 'layout/index';
+@import 'layout/mediaqueries';
+@import 'layout/producto';
+
+/* NAV-BAR*/
+@import 'components/navbar';
+
+/*MAIN*/
+/* MAIN INICIO */
+@import 'layout/index';
+
+/* MAIN PRODUCTOS */
+@import 'base/utilidades';
+@import 'layout/producto';
+
+/* MAIN CONTACTO */
+@import 'layout/contacto';
+
+/* MAIN ENVIOS */
+@import 'layout/envios';
+
+/* MAIN */
+/*FOOTER*/
+@import 'components/footer'; 
+
+@import 'layout/mediaqueries';
+
